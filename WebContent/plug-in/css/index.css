@@ -1,0 +1,341 @@
+
+
+body {background:url(../images/bg.jpg) repeat;border:0;color:#363636;line-height:20px}
+.main {margin:0 auto;width:900px}
+/*设置底部背景*/
+.body1 {
+	background:url(../images/bg_top.jpg) repeat-x;	
+	
+	border:0;
+	height:100%;
+	/*内容超过可视区域出现滚动条的时候，容器高度就消失了。所以这里就需要设置mini-height，这样当区域小的时候可以正确显示，当区域大了以后也不会有问题。*/
+	min-height:790px;	
+}
+/*设置背景图片*/
+.body2{
+	background:url(../images/bg_img.jpg) top center no-repeat;
+	height:100%;
+	/*内容超过可视区域出现滚动条的时候，容器高度就消失了。所以这里就需要设置mini-height，这样当区域小的时候可以正确显示，当区域大了以后也不会有问题。*/
+	min-height:790px;	
+}
+/**/
+a{
+	color:#558f0b;
+	text-decoration:underline;
+}
+/**/
+a:hover{text-decoration:none;}
+/*logo设置*/
+h1{
+	float:left;
+	padding:114px 0 0 63px;
+}
+/*logo位置*/
+header{
+	height:266px;
+	width:100%;
+	overflow:hidden;
+}
+/*用图片把logo替代，并保证对搜索友好*/
+header #logo{
+	/*首行缩进，用图片替换掉h1,同时对搜索友好，见http://www.cnblogs.com/qiaocheng/archive/2012/06/14/2549769.html*/
+	text-indent:-9999px;
+	display:inline-block;
+	background:url(../images/logo-index.png) no-repeat;
+	/*图片宽度*/
+	width:319px;
+	height:86px;	
+}
+/*内容背景设置*/
+section#content{
+	background-color:#fff;
+	width:100%;
+	height:372px;
+	border-radius:15px;	
+	overflow:hidden;
+}
+/**/
+section .inner{
+	padding:3px;
+	position:relative;	
+	z-index:11;
+}
+/*ul设置*/
+#content #menu{
+	overflow:hidden;/*隐藏内容，同时围住float 元素*/
+	height:366px;
+	width:100%;
+	position:relative;
+}
+#content #menu > li{
+	width:176px;/*用li把区域平均分为5份*/
+	height:366px;
+	float:left;
+	overflow:hidden;
+	
+	background:url(../images/bg_content_right.jpg) top right no-repeat;/*区域分界设置*/
+	position:relative;/*为.cont 提供定位上下文*/
+	cursor:auto;
+}
+section ul > li .text{
+	/*li左边变为链接*/
+	width:60px;
+	height:366px;
+	float:left;
+	cursor:pointer;
+	/*把文字顶出去*/
+	text-indent:-9999px;
+	position:relative;/*为.cont 提供定位上下文*/
+}
+/*把li左边变为相应的图片*/
+#page_1 .text {background:url(../images/page_1.png) 0 0 no-repeat}
+#page_2 .text {background:url(../images/page_2.png) 0 0 no-repeat}
+#page_3 .text {background:url(../images/page_3.png) 0 0 no-repeat}
+#page_4 .text {background:url(../images/page_4.png) 0 0 no-repeat}
+#page_5 .text {background:url(../images/page_5.png) 0 0 no-repeat}
+/*图片切换*/
+#page_1:hover .text {background:url(../images/page1_active.png) 0 0 no-repeat}
+#page_2:hover .text {background:url(../images/page2_active.png) 0 0 no-repeat}
+#page_3:hover .text {background:url(../images/page3_active.png) 0 0 no-repeat}
+#page_4:hover .text {background:url(../images/page4_active.png) 0 0 no-repeat}
+#page_5:hover .text {background:url(../images/page5_active.png) 0 0 no-repeat}
+section ul > li .cont{
+	position:absolute;
+	/*距li区域左边和顶部*/
+	left:107px;
+	top:32px;
+	width:500px;
+	height:320px;
+	overflow:hidden;
+	border:0px solid;	
+	border:0px solid;
+}
+.pad_top1{
+	
+	text-align:center;
+}
+}
+/*page_1网站介绍*/
+
+#page_1  div p{
+	font-size:.9em;
+}
+/*下面设置必须在后面，否则不起作用，先通用，再特例，css是按层次来的 */
+#page_1  .cont_top1{
+	padding-top:5px;/*段间距*/
+	text-align:justify;
+}
+/*page_2设置开始*/
+/*控件间距*/
+#page_2 .control-group{
+	margin-top: 30px ;  
+}
+/*输入框大小*/
+#page_2  form section #userName,#page_2  form section #password{
+	width:180px;
+	padding:5px;	
+}
+/*文字居中右对齐*/
+#page_2 .control-label {
+/*文字右对齐。必须设置float,text-align*/
+    float: left;   
+    text-align: right;
+    width: 160px;
+	border:px solid;
+	padding-top: 5px;
+}
+#page_2 #radio2,#page_2 #radio1 {
+    float: left;   
+    text-align: right;   
+}
+#page_2 #radio2 label,#page_2 #radio1 label{
+    float: none;   
+    text-align: none;   
+	border:1px solid;
+	width: 0px;
+	
+}
+#page_2 #radioNormal,#page_2 #radioAdmin {   
+	float: left;   
+    text-align: right;
+    width: 160px;
+	border:4px solid;
+	padding-top: 5px;
+}
+#page_2  form section #page2_submit{	
+	width:8em;
+	height:1.5em;
+	font-size:1.5em;
+	box-shadow:0 12px 8px -9px #555;
+	border-radius:5px;
+	font-weight:bold;
+	cursor:pointer;
+	color:#414141;
+	margin-bottom:25px;
+	
+}
+#page_2  form section #page2_submit:hover{
+	color:#558f0b;
+}
+#page_2  form section #submit1 a{
+	color:#363636;
+	text-decoration:none;
+	margin-right:20px;
+}
+#page_2  form section #submit1 a:hover{
+	color:#558f0b;
+	text-decoration:underline;
+}
+
+/*page_2结束，page_3开始*/
+#page_3 .control-group{
+	margin-top: 12px ;  
+}
+#page_3 .star{
+	color:red;
+}
+#page_3 .control-label {
+/*文字右对齐。必须设置float,text-align*/
+    float: left;   
+    text-align: right;
+    width: 160px;
+	border:0px solid;
+	padding-top: 2px;
+}
+#page_3 .control-group label {
+    line-height: 10px;
+}
+#page_3 input{
+    width: 12em;
+}
+#page_3  form section #page3_submit{	
+	width:9.5em;
+	border:0px solid;
+	font-size:1.3em;
+	box-shadow:0 12px 8px -9px #555;
+	border-radius:5px;
+	font-weight:bold;
+	cursor:pointer;
+	color:#414141;
+	margin-bottom:0px;	
+}
+#page_3  form section #page3_submit:hover{
+	color:#558f0b;
+}
+#page_3 span img{
+	cursor:pointer;
+}
+/*page_3结束，page_4开始*/
+#page_4  #function #nav_list1 li  {
+	width:248px;
+	float:left;
+	margin-top:15px ;
+	height:55px;
+	border:0px solid;
+	cursor:pointer;
+}
+#page_4  #function #nav_list1 .left a {
+	text-indent:-9999px;
+	display:inline-block;
+	
+	/*图片宽度*/
+	width:200px;
+	height:55px;	
+}
+#page_4  #function #nav_list1 .right a {
+	text-indent:-9999px;
+	display:inline-block;	
+	/*图片宽度*/
+	width:200px;
+	height:55px;	
+	float:right;
+}
+
+#page_4  #function #nav_list2 li  {
+	width:103px;	
+	margin-top:15px ;
+	height:37px;
+	border:0px solid;
+	cursor:pointer;
+	float:left;	
+}
+#page_4  #function #nav_list2 a {
+	text-indent:-9999px;
+	display:inline-block;	
+	/*图片宽度*/
+	width:103px;
+	height:37px;	
+}
+#page_4  #function #nav_list2 .left{	
+	float:left;	
+	margin-right:15px;
+}
+
+#page_4  #function #nav_list2 .right{	
+	float:right;	
+	margin-left:15px;
+}
+/*以上代码必须在前面，包括list2也必须在上面，原因目前不明*/
+
+#page_4  #function #nav_list1 #index_11 a{background:url(../images/qf1.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_12 a{background:url(../images/zd1.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_13 a{background:url(../images/xx1.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_14 a{background:url(../images/yh1.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_15 a{background:url(../images/sc1.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_16 a{background:url(../images/zdy1.gif) no-repeat;}
+
+#page_4  #function #nav_list1 #index_11:hover a{background:url(../images/qf2.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_12:hover a{background:url(../images/zd2.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_13:hover a{background:url(../images/xx2.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_14:hover a{background:url(../images/yh2.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_15:hover a{background:url(../images/sc2.gif) no-repeat;}
+#page_4  #function #nav_list1 #index_16:hover a{background:url(../images/zdy2.gif) no-repeat;}
+
+
+#page_4  #function #nav_list2 #index_21 a{background:url(../images/ww1.gif) no-repeat;}
+#page_4  #function #nav_list2 #index_22 a{background:url(../images/wh1.gif) no-repeat;}
+#page_4  #function #nav_list2 #index_23 a{background:url(../images/wxq1.gif) no-repeat;}
+#page_4  #function #nav_list2 #index_24 a{background:url(../images/gd1.gif) no-repeat;}
+
+#page_4  #function #nav_list2 #index_21:hover a{background:url(../images/ww2.gif) no-repeat;}
+#page_4  #function #nav_list2 #index_22:hover a{background:url(../images/wh2.gif) no-repeat;}
+#page_4  #function #nav_list2 #index_23:hover a{background:url(../images/wxq2.gif) no-repeat;}
+#page_4  #function #nav_list2 #index_24:hover a{background:url(../images/gd2.gif) no-repeat;}
+/*page_4结束，page_5开始*/
+#page_5 div section p{
+	font-size:1em;
+	border:px solid;
+	margin-top:10px;
+	
+}
+#page_5 div section p img{
+	/*文字与图片垂直居中对齐*/
+	vertical-align:middle;
+}
+#page_5 div section p span{
+	font-weight:bold;
+}
+#page_5 div section p #last{
+	vertical-align:middle;	
+}
+
+#page_5 div  a{	
+	border:0px solid;
+	text-indent:-9999px;
+	display:inline-block;
+	background:url(../images/enter1.gif) ;
+	/*图片宽度*/
+	width:117px;
+	height:45px;	
+	margin:-20px 10px;
+	float:right;			
+}
+#page_5 div  a:hover{
+	background:url(../images/enter2.gif) ;
+}
+
+
+
+
+
+

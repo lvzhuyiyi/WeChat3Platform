@@ -1,0 +1,96 @@
+
+/*上面导航设置开始*/
+.nav:after{
+	clear:both;
+	content:" ";
+	height:0;
+	display:table;
+	visibility:hidden;
+}
+.nav{
+	position:fixed;
+	z-index:9999;
+	background:url(../images/top-bg.gif) scroll 0 0  no-repeat;
+	width:100%;
+	height:54px; 
+	border:0px solid #fff;
+	box-shadow:0 12px 8px -9px #000;
+	left:0;
+	top:0;  	
+}
+.nav-content{
+	position:relative;
+	width:1350px;
+	margin:0 auto;
+	border:0px solid;
+}
+.nav-content h1  {	
+	float:left;
+	width:156px;
+	height:49px;
+	background:url(../images/logo.png) no-repeat 0 0 ;
+	border:0px solid;
+	text-indent:-9999px;
+	cursor:pointer;
+	margin:0 40px;
+}
+.nav-content h1 a{
+	width:156px;
+	height:49px;	
+	display:block;
+}
+.nav-content .right{
+	float:right;
+	width:980px;
+	border:0px solid;
+	color:#F1CFBE;
+	margin-top:10px;
+}
+.nav-content .right li{
+	float:left;
+	width:95px;
+	height:35px;
+	background:url(../images/nav-button.png) no-repeat ;
+	margin-right:50px;	
+	border:0px solid;	
+}
+.nav-content .right li:last-child{
+	margin-right:140px;
+}
+.nav-content .right li a{
+	color:#F1CFBE;
+	width:95px;
+	height:35px;
+	display:inline-block;	
+	font-size:18px;
+	padding:2px 0px;
+	text-align:center;
+	border:0px solid #66f;
+}
+.nav-content .right li a:hover{
+	color:#fff;	
+}
+.nav-content .right span {
+	float:left;
+	width:58px;
+	height:35px;
+	background:url(../images/nav-button2.png) no-repeat ;
+	margin-right:50px;	
+	border:0px solid;			
+}
+.nav-content .right div a{
+	color:#F1CFBE;
+	width:58px;
+	height:35px;	
+	text-align:center;
+	border:0px solid;
+	display:inline-block;	
+	font-size:18px;	
+}
+.nav-content .right div a:hover{
+	color:#fff;
+	
+}
+
+
+

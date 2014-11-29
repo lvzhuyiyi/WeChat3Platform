@@ -1,0 +1,179 @@
+#z_brand_title0 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title1 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title2 {
+	overflow: hidden; height: 42px
+}
+#tagContent {
+	float:left;
+	margin-left: -3px;
+	width: 80%;
+	height: 100%;
+}
+#tagContent #tagContent0 {
+	border-right: 1px solid #999900;
+	border-top: 1px solid #999900;
+	border-left: 1px solid #999900;
+	border-bottom: 1px solid #999900;
+	margin-left: 0px;
+}
+#tagContent #tagContent1 {
+	border-right: 1px solid #ce8f6b;
+	border-top: 1px solid #ce8f6b;
+	border-left: 1px solid #ce8f6b;
+	border-bottom: 1px solid #ce8f6b;
+	margin-left: 0px;
+}
+#tagContent #tagContent2 {
+	border-right: 1px solid #7a92c2;
+	border-top: 1px solid #7a92c2;
+	border-left: 1px solid #7a92c2;
+	border-bottom: 1px solid #7a92c2;
+	margin-left: 0px;
+}
+#tags .z_brand_title0_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #999900;
+}
+#tags .z_brand_title1_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #ce8f6b;
+}
+#tags .z_brand_title2_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #7a92c2;
+}
+/*
+用户管理tab css
+*/
+#z_brand_title3 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title4 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title5 {
+	overflow: hidden; height: 42px
+}
+#tagContentx {
+	float: left;
+	margin-left: -3px;
+	width: 80%;
+	height: 100%;
+}
+#tagContentx #tagContent3 {
+	border-right: 1px solid #999900;
+	border-top: 1px solid #999900;
+	border-left: 1px solid #999900;
+	border-bottom: 1px solid #999900;
+	margin-left: 0px;
+}
+#tagContentx #tagContent4 {
+	border-right: 1px solid #ce8f6b;
+	border-top: 1px solid #ce8f6b;
+	border-left: 1px solid #ce8f6b;
+	border-bottom: 1px solid #ce8f6b;
+	margin-left: 0px;
+}
+#tagContentx #tagContent5 {
+	border-right: 1px solid #7a92c2;
+	border-top: 1px solid #7a92c2;
+	border-left: 1px solid #7a92c2;
+	border-bottom: 1px solid #7a92c2;
+	margin-left: 0px;
+}
+#tagsx .z_brand_title3_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #999900;
+}
+#tagsx .z_brand_title4_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #ce8f6b;
+}
+#tagsx .z_brand_title5_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #7a92c2;
+}
+/*
+ 用户分析 accordion
+*/
+*, * focus {
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+
+.accordion{
+	width: 100%;
+	height:100%;
+	margin: 0 0;
+	overflow:scroll;
+}
+
+
+.accordion h2.acc_trigger {
+	padding: 0;	margin: 0 0 5px 0;
+	background: url(/WeChat3Platform/plug-in/images/h2_trigger_a.gif) no-repeat;
+	background-color:#000024;
+	height: 46px;	line-height: 46px;
+	width: 60%;
+	font-size: 15px;
+	font-weight: normal;
+	float: left;
+	
+}
+
+.accordion h2.acc_trigger a {
+	color: #fff;
+	width: 100%;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 0 50px;
+}
+
+.accordion h2.acc_trigger a:hover {
+	color: #ccc;
+}
+
+.accordion h2.active {background-position: left bottom;}
+.acc_trigger {
+	width:80%;
+	background-color:red;
+}
+.acc_trigger>a{
+	width:80%;
+}
+.acc_container {
+	margin: -3 0 5px; padding: 0;
+	overflow:scroll;
+	font-size: 1.2em;
+	
+	width: 60%;
+	height:80%;
+	clear: both;
+	background: #f0f0f0;
+	border: 1px solid #d6d6d6;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px; 
+}
+
+
+.acc_container .block p {
+	padding: 5px 0;
+	margin: 5px 0;
+}
+
+

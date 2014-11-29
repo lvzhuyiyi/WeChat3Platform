@@ -1,0 +1,108 @@
+/* 全局样式 */
+body, ul, dl, dd, dt, ol, li, p, h1, h3, h4, h5, h6, form, select, fieldset, table, img, td, div, input { margin: 0; padding: 0; font-size: 12px; font-weight: normal; }
+body>div, form>div { margin: 0 auto; }
+div { text-align: left; }
+a img { border: 0; }
+body { color: #666666; text-align: center; font: 12px Arial, "宋体"; }
+ul, ol, li { list-style-type: none; }
+a { outline-style: none; color: #666666; text-decoration: none; }
+a:hover { color: #0b488c; }
+a, area { blr:expression(this.onFocus=this.blur())
+}
+.body{
+	background:url(../images/bg_main.jpg);
+	width:100%;
+	height:100%;	
+}
+.bannerx{
+	
+	margin-left:10%;
+}
+.main_tag{
+	width:80%;
+	height:70%;
+	margin-left:10%;
+	background-color:gray;
+}
+:focus { -moz-outline-style: none; }
+.clear { clear: both; }
+.hidden { 
+display:none;
+	
+	}
+
+.block {visible:visible;  }
+.left { float: left; }
+.right { float: right; }
+.center{
+	margin:auto;
+}
+.m2yw_right {
+	width: 86.5%;
+	height:70%;
+	margin-left:10%;
+	
+}
+
+.m2yw_tab {
+	background: url(/WeChat3Platform/plug-in/images/m2line.jpg) repeat-x scroll left bottom transparent;
+	border-bottom: 1px solid #dedcdd;
+	border-left: 1px solid #dedcdd;
+	border-right: 1px solid #dedcdd;
+	border-top: 1px solid #dedcdd;
+	height: 28px;
+}
+.m2yw_tab ul li {
+	background: url(/WeChat3Platform/plug-in/images/m2_hover2.jpg) no-repeat scroll 0 0 transparent;
+	cursor: pointer;
+	float: right;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 25px;
+	text-align: center;
+	width: 90px;
+}
+.m2yw_tab ul .m2yw_cutli {
+	background: url(/WeChat3Platform/plug-in/images/m2_hover1.jpg) no-repeat scroll 0 0 transparent;
+	color: #800000;
+	font-weight: bold;
+}
+.bar{
+	width:100%;
+	height:20px;
+	background-color:gray;
+}
+.m2yw_pic {
+	border-bottom: 1px solid #dedcdd;
+	border-left: 1px solid #dedcdd;
+	border-right: 1px solid #dedcdd;
+	height: 700px;
+	background-color:white;
+	width:100%;
+	
+}
+#tablist2{
+	height:60%;
+	
+}
+
+/*logo位置*/
+header{
+	height:100px;
+	width:80%;
+	overflow:hidden;
+	margin-left:10%;
+	
+}
+/*用图片把logo替代，并保证对搜索友好*/
+header #logo{
+	/*首行缩进，用图片替换掉h1,同时对搜索友好，见http://www.cnblogs.com/qiaocheng/archive/2012/06/14/2549769.html*/
+	text-indent:-9999px;
+
+	display:inline-block;
+	background:url(../images/logo.png) no-repeat;
+	/*图片宽度*/
+	width:319px;
+	height:86px;	
+	magin-bottom:-10px;
+}

@@ -1,0 +1,18 @@
+{"menu":{"button":[{"name":"生活助手","sub_button":[
+  {"type":"click","name":"天气预报","key":"11","sub_button":[]},
+  {"type":"click","name":"公交查询","key":"12","sub_button":[]},
+  {"type":"click","name":"周边搜索","key":"13","sub_button":[]},
+  {"type":"click","name":"历史上的今天","key":"14","sub_button":[]},
+  {"type":"click","name":"电影排行榜","key":"32","sub_button":[]}]},
+{"name":"休闲驿站","sub_button":[
+    {"type":"click","name":"歌曲点播","key":"21","sub_button":[]},
+    {"type":"click","name":"经典游戏","key":"22","sub_button":[]},
+    {"type":"click","name":"美女电台","key":"23","sub_button":[]},
+    {"type":"click","name":"人脸识别","key":"24","sub_button":[]},
+    {"type":"click","name":"聊天唠嗑","key":"25","sub_button":[]}]},
+{"name":"更多","sub_button":[
+    {"type":"click","name":"Q友圈","key":"31","sub_button":[]},
+    {"type":"click","name":"幽默笑话","key":"33","sub_button":[]},
+    {"type":"click","name":"用户反馈","key":"34","sub_button":[]},
+    {"type":"click","name":"关于我们","key":"35","sub_button":[]},
+    {"type":"view","name":"使用帮助","url":"http:\/\/liufeng.gotoip2.com\/xiaoqrobot\/help.jsp","sub_button":[]}]}]}}

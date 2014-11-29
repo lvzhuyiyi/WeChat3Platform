@@ -1,0 +1,237 @@
+body {background:url(../images/body.png) no-repeat;border:0;color:#363636; width:1035px;min-height:1000px;}
+
+body{width:1350px; position:relative;}
+/*上面导航设置开始*/
+.nav:after{
+	clear:both;
+	content:" ";
+	height:0;
+	display:table;
+	visibility:hidden;
+}
+.nav{
+	position:fixed;
+	z-index:9999;
+	background:url(../images/top-bg.gif) scroll 0 0  no-repeat;
+	width:100%;
+	height:54px; 
+	border:0px solid #fff;
+	box-shadow:0 12px 8px -9px #000;
+	left:0;
+	top:0;  	
+}
+.nav-content{
+	position:relative;
+	width:1350px;
+	margin:0 auto;
+	border:0px solid;
+}
+.nav-content h1  {	
+	float:left;
+	width:156px;
+	height:49px;
+	background:url(../images/logo.png) no-repeat 0 0 ;
+	border:0px solid;
+	text-indent:-9999px;
+	cursor:pointer;
+	margin:0 40px;
+}
+.nav-content h1 a{
+	width:156px;
+	height:49px;	
+	display:block;
+}
+.nav-content .right{
+	float:right;
+	width:980px;
+	border:0px solid;
+	color:#F1CFBE;
+	margin-top:10px;
+}
+.nav-content .right li{
+	float:left;
+	width:95px;
+	height:35px;
+	background:url(../images/nav-button.png) no-repeat ;
+	margin-right:50px;	
+	border:0px solid;	
+}
+.nav-content .right li:last-child{
+	margin-right:140px;
+}
+.nav-content .right li a{
+	color:#F1CFBE;
+	width:95px;
+	height:35px;
+	display:inline-block;	
+	font-size:18px;
+	padding:2px 0px;
+	text-align:center;
+	border:0px solid #66f;
+}
+.nav-content .right li a:hover{
+	color:#fff;	
+}
+.nav-content .right span {
+	float:left;
+	width:58px;
+	height:35px;
+	background:url(../images/nav-button2.png) no-repeat ;
+	margin-right:50px;	
+	border:0px solid;			
+}
+.nav-content .right div a{
+	color:#F1CFBE;
+	width:58px;
+	height:35px;	
+	text-align:center;
+	border:0px solid;
+	display:inline-block;	
+	font-size:18px;	
+}
+.nav-content .right div a:hover{
+	color:#fff;
+	
+}
+/*上面导航设置结束，侧栏设置开始*/
+
+#content {
+	margin-top:50px;
+	border:0px solid;
+}
+#public-content{
+	margin:0 auto;
+	width:1100px;
+	border:0px solid;
+}
+.public-box{
+	overflow:hidden;
+	float:left;
+	width:225px;
+	border:0px solid;
+	
+}
+#content h1{
+	color:#F1CFBE;
+	font-size:26px;
+	text-indent:2em;/*首行缩进*/
+	padding:20px 0 10px;
+	border:0px solid;
+}
+.public-box {
+	width:225px;
+	float:left;
+	margin-top:10px;
+}
+.public-box li{
+	color:#F1CFBE;
+	background:url(../images/li-1.png) no-repeat;
+	height:33px;
+	width:100%;
+	margin-bottom:20px;
+	cursor:pointer;
+	border:0px solid;
+	letter-spacing:3px;
+	font-size:18px;		
+}
+.public-box  li.current{
+	color:#fff;
+	background:url(../images/li-2.png) no-repeat;
+		
+}
+
+#nav-left span{
+	margin-left:10px;
+	letter-spacing:5px;
+}
+public-box ul li:hover{
+	color:#fff;
+	background:url(../images/li-2.png) no-repeat;
+	height:33px;
+	width:100%;
+}
+
+/****内容右栏区设置开始***/
+#top-content .content-right1{
+	float:left;
+	width:1.5em; 
+	font-size:22px;
+	margin:10px 0 0 50px;	
+	color:black;
+}
+#top-content .content-right2{
+	border:0px solid;
+	width:730px;
+	float:right;
+	font-size:20px;
+	margin:20px 33px  0  0px;	
+	color:black;
+	font-weight:bold;
+}
+/****进入专题按钮***/
+
+.content-right #button-function{
+	float:right;	
+}
+.content-right #button-function {
+	background:url(../images/button-function.png) no-repeat;
+	width:148px;
+	height:60px;
+	margin:0 50px 0px 0px;
+	padding:0px;
+	font-size:20px;
+	line-height:60px;
+	letter-spacing:.4em;	
+	color:black;
+}
+.content-right #button-function:hover{
+	color:#000;	
+	font-weight:bold;
+}
+.content-right #button-function span{
+	margin-left:20px;
+}
+.content-right{
+	width:860px;
+	height:800px;
+	border:0px solid #f5f;
+	float:right;
+	overflow:hidden;
+}
+.b-load .face h2{
+	width:1.5em; 
+	float:left;
+	font-size:35px;
+	margin:60px 0 0 170px;
+	line-height:80px;
+}
+#top-content{
+	width:860px;
+	height:135px;
+	border:0px solid #44f;
+	margin-top:10px;
+}
+.book_wrapper{
+	margin:52px auto;
+	padding-top:28px;
+	width:700px;
+	height:520px;
+	position:relative;
+	border:0px solid;
+	background:transparent url(../images/book.png) no-repeat 9px 0px;
+}
+.book_wrapper img{
+	margin:20px 0px 5px 170px;
+	width:230px;
+	padding:10px;
+	border:0px solid #ddd;
+	-moz-box-shadow:1px 1px 1px #fff;
+	-webkit-box-shadow:1px 1px 1px #fff;
+	box-shadow:1px 1px 1px #fff;
+}
+
+
+
+/****内容右栏区设置结束***/
+
+

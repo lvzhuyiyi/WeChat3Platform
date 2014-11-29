@@ -1,0 +1,30 @@
+﻿footer{
+	border:0px solid #fff;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	margin:40px 0;
+	padding-top:40px;
+}
+footer li{
+	display:inline;	
+}
+footer  a{
+	color:#fff;
+	text-decoration:none;
+	cursor:pointer;
+}
+footer a:hover{
+	text-decoration:underline;
+	color:#E66F08;
+}
+footer p{
+	clear:both;
+}
+
+
+
+
+
