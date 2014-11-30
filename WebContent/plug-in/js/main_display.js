@@ -108,6 +108,34 @@ function loadt(){
 		 url:'weiXinUserController.do?getYASNums' 
 	});
 }
+/*
+ * 微官网 纵向Tab
+ * */
+var btnJson2 = [ { changeId: "z_brand_title6", selectId: "tagContent6" }, 
+                 { changeId: "z_brand_title7", selectId: "tagContent7" }, 
+                 { changeId: "z_brand_title8", selectId: "tagContent8" }, 
+                 { changeId: "z_brand_title9", selectId: "tagContent9" }, 
+                 { changeId: "z_brand_title10", selectId: "tagContent10" }, 
+                 { changeId: "z_brand_title11", selectId: "tagContent11" }, 
+                 { changeId: "z_brand_title12", selectId: "tagContent12" }, 
+		   	    { changeId: "z_brand_title13", selectId: "tagContent13"}
+		   	    ];
+visitw=[true];
+function selectTag2(x) {
+  for (var i = 0; i < btnJson2.length; i++) {
+	if (btnJson2[i].changeId == x.parentNode.id) {
+	  document.getElementById(x.parentNode.id).className = x.parentNode.id + "_selectTag";
+	  document.getElementById(btnJson2[i].selectId).style.display = "block";
+	}
+	else {
+	  document.getElementById(btnJson2[i].changeId).className = btnJson2[i].changeId;
+	  document.getElementById(btnJson2[i].selectId).style.display = "none";
+	}
+	if(x.parentNode.id=="z_brand_title2"&&visita){	
+	    
+	}
+  }
+}
   /*
    * 主菜单控制
    * */

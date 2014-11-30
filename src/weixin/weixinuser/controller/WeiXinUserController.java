@@ -543,6 +543,8 @@ public class WeiXinUserController {
 					.findByPropertyByFieldOrder(YesterdaySubscribeRecord.class,
 							"pUser.id", pUser.getId(), "date");
 			Calendar today = Calendar.getInstance();
+			Calendar yesterday = Calendar.getInstance();
+			yesterday.add(Calendar.DAY_OF_MONTH, -1);
 			Calendar lastDay = Calendar.getInstance();
 			if (ysrl.size() == 0) {
 				session.setAttribute("sub", 0);
@@ -559,18 +561,34 @@ public class WeiXinUserController {
 					array.add(json);
 					return array;
 				} else {
-					json.put("value", ysrl.get(1).getSubscribers());
-					session.setAttribute("sub", ysrl.get(1).getSubscribers());
-					condition.signalAll();
-					array.add(json);
+					Calendar lLastDay = Calendar.getInstance();
+					lLastDay.setTime(ysrl.get(1).getDate());
+					if (DateUtils.compareCalendar(yesterday, lLastDay)) {
+						json.put("value", ysrl.get(1).getSubscribers());
+						session.setAttribute("sub", ysrl.get(1)
+								.getSubscribers());
+						condition.signalAll();
+						array.add(json);
+					} else {
+						json.put("value", 0);
+						session.setAttribute("sub", 0);
+						condition.signalAll();
+						array.add(json);
+					}
 					return array;
 				}
 			} else {
-				json.put("value", ysrl.get(0).getSubscribers());
-
-				session.setAttribute("sub", ysrl.get(0).getSubscribers());
-				condition.signalAll();
-				array.add(json);
+				if (DateUtils.compareCalendar(yesterday, lastDay)) {
+					json.put("value", ysr0.getSubscribers());
+					session.setAttribute("sub", ysr0.getSubscribers());
+					condition.signalAll();
+					array.add(json);
+				} else {
+					json.put("value", 0);
+					session.setAttribute("sub", 0);
+					condition.signalAll();
+					array.add(json);
+				}
 				return array;
 			}
 		} finally {
@@ -602,6 +620,8 @@ public class WeiXinUserController {
 							YesterdayUNSubscribeRecord.class, "pUser.id",
 							pUser.getId(), "date");
 			Calendar today = Calendar.getInstance();
+			Calendar yesterday = Calendar.getInstance();
+			yesterday.add(Calendar.DAY_OF_MONTH, -1);
 			Calendar lastDay = Calendar.getInstance();
 			if (ysrl.size() == 0) {
 				session.setAttribute("unsub", 0);
@@ -618,19 +638,38 @@ public class WeiXinUserController {
 					array.add(json);
 					return array;
 				} else {
-					json.put("value", ysrl.get(1).getUnSubscribers());
-					session.setAttribute("unsub", ysrl.get(1)
+					Calendar lLastDay = Calendar.getInstance();
+					lLastDay.setTime(ysrl.get(1).getDate());
+					if (DateUtils.compareCalendar(yesterday, lLastDay)) {
+						json.put("value", ysrl.get(1).getUnSubscribers());
+						session.setAttribute("unsub", ysrl.get(1)
+								.getUnSubscribers());
+						condition.signalAll();
+						array.add(json);
+						return array;
+					} else {
+						json.put("value", 0);
+						session.setAttribute("unsub", 0);
+						condition.signalAll();
+						array.add(json);
+						return array;
+					}
+				}
+			} else {
+				if (DateUtils.compareCalendar(yesterday, lastDay)) {
+					json.put("value", ysrl.get(0).getUnSubscribers());
+					session.setAttribute("unsub", ysrl.get(0)
 							.getUnSubscribers());
 					condition.signalAll();
 					array.add(json);
 					return array;
+				} else {
+					json.put("value", 0);
+					session.setAttribute("unsub", 0);
+					condition.signalAll();
+					array.add(json);
+					return array;
 				}
-			} else {
-				json.put("value", ysrl.get(0).getUnSubscribers());
-				session.setAttribute("unsub", ysrl.get(0).getUnSubscribers());
-				condition.signalAll();
-				array.add(json);
-				return array;
 			}
 		} finally {
 			lock.unlock();

@@ -84,11 +84,50 @@
   <div id="tablist2">
     <div class="bar"></div>
     <div id="1" class="m2yw_pic hidden">
-        <div id="tagsy">                
+         <div id="z_index_201208y">
+               <div class="clear" id="z_brandy">
+                   <div id="tagsy">
+                         <h3 class="z_brand_title6_selectTag" id="z_brand_title6"><a class="z_brand_oumei" onmouseover="selectTag2(this)" href="javascript:void(0)">添加门店</a></h3>
+                         <h3 class="z_brand_title7" id="z_brand_title7"><a class="z_brand_guochan" onmouseover="selectTag2(this)" href="javascript:void(0)">版式设置</a></h3>
+                         <h3 class="z_brand_title8" id="z_brand_title8"><a class="z_brand_rihan" onmouseover="selectTag2(this)" href="javascript:void(0)">底部菜单</a></h3>
+                         <h3 class="z_brand_title9" id="z_brand_title9"><a class="z_brand_oumei1" onmouseover="selectTag2(this)" href="javascript:void(0)">订单管理</a></h3>
+                         <h3 class="z_brand_title10" id="z_brand_title10"><a class="z_brand_guochan1" onmouseover="selectTag2(this)" href="javascript:void(0)">账单管理</a></h3>
+                         <h3 class="z_brand_title11" id="z_brand_title11"><a class="z_brand_rihan1" onmouseover="selectTag2(this)" href="javascript:void(0)">顾客管理</a></h3>
+                         <h3 class="z_brand_title12" id="z_brand_title12"><a class="z_brand_oumei2" onmouseover="selectTag2(this)" href="javascript:void(0)">菜品管理</a></h3>
+                         <h3 class="z_brand_title13" id="z_brand_title13"><a class="z_brand_guochan2" onmouseover="selectTag2(this)" href="javascript:void(0)">菜品分类</a></h3>
+                   </div>
+                  <div id="tagContenty">
+                         <ul class="z_brand_list_om clear" id="tagContent6" >
+                          
+                         </ul>
+                         <ul class="z_brand_list_gc clear" id="tagContent7">
+                        
+                         </ul>
+                         <ul class="z_brand_list_rh clear" id="tagContent8" >
+                         
+                         </ul>
+                         <ul class="z_brand_list_1 clear" id="tagContent9" >
+                        
+                         </ul>
+                          <ul class="z_brand_list_2 clear" id="tagContent10" >
+                        
+                         </ul>
+                         <ul class="z_brand_list_3 clear" id="tagContent11">
+                        
+                         </ul>
+                         <ul class="z_brand_list_4 clear" id="tagContent12" >
+                        
+                         </ul>
+                         <ul class="z_brand_list_5 clear" id="tagContent13" >
+                        
+                         </ul>
+                  </div>
+               </div>
          </div>
     </div>
     <div id="2" class="m2yw_pic hidden">
-         <div id="tagsy">                
+         <div id="tagsy1">            
+           <h3 class="z_brand_title" ><a class="z_brand_guochan"  href="javascript:void(0)">群发管理</a></h3>    
          </div>
          <div class="easyui-panel" title="群发消息" style="width:75%;height:98%">
                <div style="padding:10px 60px 60px 60px">
@@ -342,7 +381,8 @@
         </div>
     </div>
     <div id="4" class="m2yw_pic hidden">
-       <div id="tagsz">                   
+       <div id="tagsz">            
+           <h3 class="z_brand_title" ><a class="z_brand_guochan"  href="javascript:void(0)">自定义菜单</a></h3>    
        </div>
        <br><br>
        <h2 style="text-color:gray;text-align:center">注意：主菜单最多三个，二级子菜单最多五个,复合类型菜单只需要填菜单项名！谨慎选择类型！</h2>
@@ -386,8 +426,9 @@
               </div>
     </div>
     <div id="5" class="m2yw_pic hidden">
-         <div id="tagsw">                 
-         </div>
+       <div id="tagsw">            
+           <h3 class="z_brand_title" ><a class="z_brand_guochan"  href="javascript:void(0)">关注回复</a></h3>    
+       </div>
          <br>
          <div style="margin-left:48%;margin-bottom:20px">
                        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="$('#dlg').dialog('open')">添加回复模板</a>
@@ -529,8 +570,8 @@
                                               </form>   
                     
                                               <div style="text-align:center;padding:5px">
-                                                   <a id="1" href="javascript:void(0)" class="easyui-linkbutton" >提交</a>
-                                                   <a  id="2" href="javascript:void(0)" class="easyui-linkbutton" >重设</a>
+                                                   <a id="11" href="javascript:void(0)" class="easyui-linkbutton" >提交</a>
+                                                   <a  id="22" href="javascript:void(0)" class="easyui-linkbutton" >重设</a>
                                                </div>
                                           </div>
                                      </div>

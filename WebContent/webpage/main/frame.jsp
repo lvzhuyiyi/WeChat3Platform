@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>用户管理</title>
-<link rel="stylesheet" type="text/css" href="/WeChat3Platform/plug-in/jquery-easyui-1.4/themes/sunny/easyui.css">
+<link rel="stylesheet" type="text/css" href="/WeChat3Platform/plug-in/jquery-easyui-1.4/themes/black/easyui.css">
     <link rel="stylesheet" type="text/css" href="/WeChat3Platform/plug-in/jquery-easyui-1.4/themes/icon.css">
     <link rel="stylesheet" type="text/css" href="/WeChat3Platform/plug-in/jquery-easyui-1.4/demo/demo.css">
     <script type="text/javascript" src="/WeChat3Platform/plug-in/jquery-easyui-1.4/jquery.min.js"></script>
@@ -22,7 +22,7 @@
            
          </script>
 </head>
-<body style="background-image:url('/WeChat3Platform/image/bg2.jpg');">
+<body style="background-image:url('/WeChat3Platform/plug-in/images/left_bg.jpg');">
      
     <h2 style="color:blue;height:100px;width:100%;text-align:center;font-size:40px;font-family:SimSun">微剑---你犀利的选择</h2>                
      <h2 style="width:100%">用户管理     

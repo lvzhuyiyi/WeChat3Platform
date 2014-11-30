@@ -175,5 +175,142 @@
 	padding: 5px 0;
 	margin: 5px 0;
 }
-
-
+/*
+微官网tab css
+*/
+#z_brand_title6 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title7 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title8 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title9 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title10 {
+	overflow: hidden; height: 42px
+}
+#z_brand_title11{
+	overflow: hidden; height: 42px
+}
+#z_brand_title12{
+	overflow: hidden; height: 42px
+}
+#z_brand_title13{
+	overflow: hidden; height: 42px
+}
+#tagContenty {
+	float: left;
+	margin-left: -3px;
+	width: 80%;
+	HEIGHT:719px;
+}
+#tagContenty #tagContent6 {
+	border-right: 1px solid #999900;
+	border-top: 1px solid #999900;
+	border-left: 1px solid #999900;
+	border-bottom: 1px solid #999900;
+	
+	margin-left: 0px;
+}
+#tagContenty #tagContent7 {
+	border-right: 1px solid #ce8f6b;
+	border-top: 1px solid #ce8f6b;
+	border-left: 1px solid #ce8f6b;
+	border-bottom: 1px solid #ce8f6b;
+	
+	margin-left: 0px;
+}
+#tagContenty #tagContent8{
+	border-right: 1px solid #7a92c2;
+	border-top: 1px solid #7a92c2;
+	border-left: 1px solid #7a92c2;
+	border-bottom: 1px solid #7a92c2;
+	
+	HEIGHT:721px;
+	margin-left: 0px;
+}
+#tagContenty #tagContent9{
+	border-right: 1px solid #999900;
+	border-top: 1px solid #999900;
+	border-left: 1px solid #999900;
+	border-bottom: 1px solid #999900;
+	
+	margin-left: 0px;
+	HEIGHT:721px;
+}
+#tagContenty #tagContent10{
+	border-right: 1px solid #ce8f6b;
+	border-top: 1px solid #ce8f6b;
+	border-left: 1px solid #ce8f6b;
+	border-bottom: 1px solid #ce8f6b;
+	margin-left: 0px;
+	HEIGHT:723px;
+}
+#tagContenty #tagContent11{
+	border-right: 1px solid #7a92c2;
+	border-top: 1px solid #7a92c2;
+	border-left: 1px solid #7a92c2;
+	border-bottom: 1px solid #7a92c2;
+	margin-left: 0px;
+	HEIGHT:723px;
+}
+#tagContenty #tagContent12{
+	border-right: 1px solid #ce8f6b;
+	border-top: 1px solid #ce8f6b;
+	border-left: 1px solid #ce8f6b;
+	border-bottom: 1px solid #ce8f6b;
+	margin-left: 0px;
+	HEIGHT:723px;
+}
+#tagContenty #tagContent13{
+	border-right: 1px solid #7a92c2;
+	border-top: 1px solid #7a92c2;
+	border-left: 1px solid #7a92c2;
+	border-bottom: 1px solid #7a92c2;
+	margin-left: 0px;
+	HEIGHT:723px;
+}
+#tagsy .z_brand_title6_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #999900;
+}
+#tagsy .z_brand_title7_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #ce8f6b;
+}
+#tagsy .z_brand_title8_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #7a92c2;
+}
+#tagsy .z_brand_title9_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #999900;
+}
+#tagsy .z_brand_title10_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #ce8f6b;
+}
+#tagsy .z_brand_title11_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #7a92c2;
+}
+#tagsy .z_brand_title12_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #ce8f6b;
+}
+#tagsy .z_brand_title13_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #7a92c2;
+}

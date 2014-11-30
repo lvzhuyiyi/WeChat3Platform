@@ -141,7 +141,7 @@ function CKupdate() {
        $('#file').filebox({
     	    buttonText: '选择文件'               	  
     	})
-    	$("#1").click(
+    	$("#11").click(
           function submitForm5(){
         	  CKupdate();
     	       if(op){
@@ -174,7 +174,7 @@ function CKupdate() {
 
         	       }
           });
-       $("#2").click(
+       $("#22").click(
           function clearForm5(){
                  $('#ff6').form('clear');
           });

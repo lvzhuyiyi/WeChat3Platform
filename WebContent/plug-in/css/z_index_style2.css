@@ -2,11 +2,9 @@
 	outline: none
 }
 .clear {
-	CLEAR: both; HEIGHT:100%
+	CLEAR: both; 
 }
-BODY {
-	FONT-FAMILY: "΢���ź�"
-}
+
 #z_index_201208 {
 	margin-top:0px;
 
@@ -31,6 +29,8 @@ BODY {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
+
 #z_brand .z_brand_oumei {
 	DISPLAY: block;
 	BACKGROUND: url(../images/z_brand_oumei.gif) #800000 no-repeat 80px 14px;
@@ -154,22 +154,239 @@ BODY {
 #tagContentx .z_brand_list_rh {
 	display: none;
 }
-
 /*
-其他tab块
+微官网 tab css
 */
+z_index_201208y {
+	margin-top:0px;
+	WIDTH: 100%;
+	height:100%;
+	position: relative;
+}
+#z_brandy{
+	WIDTH: 1279px; HEIGHT:721px;
+}
 #tagsy {
 	FLOAT: left; OVERFLOW: hidden; WIDTH: 109px; HEIGHT:100%;
 	border:1px solid #999900;
 	background-color:gray;
 }
-#tagsz {
+#tagsy H3 {
+	DISPLAY: block;
+	FONT-SIZE: 12px;
+	WIDTH: 107px;
+	TEXT-INDENT: 20px;
+	LINE-HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#z_brandy .z_brand_oumei {
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_oumei.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	border: 1px solid #e7a4c5;
+}
+#z_brandy .z_brand_guochan {
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_guochan.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #d1d1d1;
+}
+#z_brandy .z_brand_rihan {
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_rihan.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #adc3ec;
+}
+#z_brandy .z_brand_oumei1{
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_oumei.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	border: 1px solid #e7a4c5;
+}
+#z_brandy .z_brand_guochan1{
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_guochan.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #d1d1d1;
+}
+#z_brandy .z_brand_rihan1{
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_rihan.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #adc3ec;
+}
+#z_brandy .z_brand_oumei2{
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_oumei.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	border: 1px solid #e7a4c5;
+}
+#z_brandy .z_brand_guochan2{
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_guochan.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #d1d1d1;
+}
+#tagContenty ul {
+	width:100%; height:719px;
+}
+
+
+#tagContenty .z_brand_list_om {
+	display: block;
+}
+#tagContenty .z_brand_list_gc {
+	display: none;
+}
+#tagContenty .z_brand_list_rh {
+	display: none;
+}
+#tagContenty .z_brand_list_1 {
+	display: none;
+}
+#tagContenty .z_brand_list_2 {
+	display: none;
+}
+#tagContenty .z_brand_list_3 {
+	display: none;
+}
+#tagContenty .z_brand_list_4 {
+	display: none;
+}
+#tagContenty .z_brand_list_5 {
+	display: none;
+}
+/*
+群发管理
+*/
+#tagsy1{
 	FLOAT: left; OVERFLOW: hidden; WIDTH: 109px; HEIGHT:100%;
 	border:1px solid #999900;
 	background-color:gray;
 }
-#tagsw {
+#tagsy1 .z_brand_guochan{
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_rihan.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #adc3ec;
+}
+#tagsy1 H3 {
+	DISPLAY: block;
+	FONT-SIZE: 12px;
+	WIDTH: 107px;
+	TEXT-INDENT: 20px;
+	LINE-HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#tagsy1 .z_brand_title_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #999900;
+}
+/*
+自定义菜单tab
+*/
+#tagsz{
 	FLOAT: left; OVERFLOW: hidden; WIDTH: 109px; HEIGHT:100%;
 	border:1px solid #999900;
 	background-color:gray;
+}
+#tagsz .z_brand_guochan{
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_rihan.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #adc3ec;
+}
+#tagsz H3 {
+	DISPLAY: block;
+	FONT-SIZE: 12px;
+	WIDTH: 107px;
+	TEXT-INDENT: 20px;
+	LINE-HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#tagsz .z_brand_title_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #999900;
+}
+/*
+关注回复
+*/
+#tagsw{
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 109px; HEIGHT:100%;
+	border:1px solid #999900;
+	background-color:gray;
+}
+#tagsw .z_brand_guochan{
+	DISPLAY: block;
+	BACKGROUND: url(../images/z_brand_rihan.gif) #800000 no-repeat 80px 14px;
+	OVERFLOW: hidden;
+	WIDTH: 107px;
+	COLOR: #fff;
+	HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #adc3ec;
+}
+#tagsw H3 {
+	DISPLAY: block;
+	FONT-SIZE: 12px;
+	WIDTH: 107px;
+	TEXT-INDENT: 20px;
+	LINE-HEIGHT: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#tagsw .z_brand_title_selectTag {
+	overflow: hidden;
+	height: 42px;
+	border: 1px solid #999900;
 }
